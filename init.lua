@@ -97,10 +97,10 @@ vim.keymap.set("t", "<Esc><Esc>", "<C-\\><C-n>", { desc = "Exit terminal mode" }
 -- vim.keymap.set('n', '<down>', '<cmd>echo "Use j to move!!"<CR>')
 
 -- Switch hjkl navigation -> jkl;
-vim.keymap.set({ "n", "v", "o" }, "j", "h")
-vim.keymap.set({ "n", "v", "o" }, "k", "j")
-vim.keymap.set({ "n", "v", "o" }, "l", "k")
-vim.keymap.set({ "n", "v", "o" }, ";", "l")
+-- vim.keymap.set({ "n", "v", "o" }, "j", "h")
+-- vim.keymap.set({ "n", "v", "o" }, "k", "j")
+-- vim.keymap.set({ "n", "v", "o" }, "l", "k")
+-- vim.keymap.set({ "n", "v", "o" }, ";", "l")
 
 -- Keybinds to make split navigation easier.
 --  Use CTRL+<hjkl> to switch between windows
